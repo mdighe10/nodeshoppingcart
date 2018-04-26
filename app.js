@@ -16,7 +16,9 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
-mongoose.connect('mongodb://mongodbshoppingcart:iKRAvvDH2DrjfvtqUI4o0hzw1GuayW5imeiu0xLDoo2W8l3doc9uqZIXpZZuq213Iw6bL41oNbGXAyyIPCY3hA%3D%3D@mongodbshoppingcart.documents.azure.com:10255/shopping?ssl=true');
+//mongoose.connect('mongodb://mongodbshoppingcart:iKRAvvDH2DrjfvtqUI4o0hzw1GuayW5imeiu0xLDoo2W8l3doc9uqZIXpZZuq213Iw6bL41oNbGXAyyIPCY3hA%3D%3D@mongodbshoppingcart.documents.azure.com:10255/shopping?ssl=true');
+mongoose.connect('mongodb://nodejsazure:OZfC5b0Xkyv04mOHWEHtzcaUgbBRPbXPRuP0zVqNsOwPIbbMTKVBRxj2crV7KXSXXgLb2d6osP7oFnyyWvBfNw%3D%3D@nodejsazure.documents.azure.com:10255/shopping?ssl=true');
+
 require('./config/passport');
 
 // view engine setup
