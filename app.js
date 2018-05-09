@@ -16,7 +16,7 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
-mongoose.connect('mongodb://nodejscosmos:igxxvwyeT0ZuPflh5G8HdMdFGIQrgsgg38ig93cx6vD6rrwxzCxSwZ0l77RJTrrDFWZdfcnr1JXTsqdJV7wczA%3D%3D@nodejscosmos.documents.azure.com:10255/?ssl=true');
+mongoose.connect('mongodb://nodejscosmos:igxxvwyeT0ZuPflh5G8HdMdFGIQrgsgg38ig93cx6vD6rrwxzCxSwZ0l77RJTrrDFWZdfcnr1JXTsqdJV7wczA%3D%3D@nodejscosmos.documents.azure.com:10255/shopping?ssl=true');
 
 require('./config/passport');
 

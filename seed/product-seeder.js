@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 //mongoose.connect('mongodb://mongodbshoppingcart:iKRAvvDH2DrjfvtqUI4o0hzw1GuayW5imeiu0xLDoo2W8l3doc9uqZIXpZZuq213Iw6bL41oNbGXAyyIPCY3hA%3D%3D@mongodbshoppingcart.documents.azure.com:10255/shopping?ssl=true');
 
-mongoose.connect('mongodb://nodejsazure:OZfC5b0Xkyv04mOHWEHtzcaUgbBRPbXPRuP0zVqNsOwPIbbMTKVBRxj2crV7KXSXXgLb2d6osP7oFnyyWvBfNw%3D%3D@nodejsazure.documents.azure.com:10255/shopping?ssl=true');
+mongoose.connect('mongodb://nodejscosmos:igxxvwyeT0ZuPflh5G8HdMdFGIQrgsgg38ig93cx6vD6rrwxzCxSwZ0l77RJTrrDFWZdfcnr1JXTsqdJV7wczA%3D%3D@nodejscosmos.documents.azure.com:10255/shopping?ssl=true');
 var products =[
     new Product({
         imagePath: 'https://images-submarino.b2w.io/produtos/01/00/sku/10633/1/10633182_1GG.jpg',
